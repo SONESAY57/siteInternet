@@ -28,7 +28,7 @@ section.top-page {
 
 .big-title {
     color: #CDA949;
-    font-size: 96px;
+    font-size: clamp(50px, 7vw, 96px);
     font-family: "KRONA ONE"; 
     position: absolute;
     text-align: center;
@@ -65,9 +65,9 @@ nav.contact {
     justify-content: space-between;
     list-style: none;
     width: 250px;
-    margin-left: 25px;
+    margin-left: 15px;
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     height: 6vh;
 }
 
